@@ -4,11 +4,11 @@ open Npgsql.FSharp
 open Extreme.Mathematics
 
 let defaultConnection  =
-    Npgsql.FSharp.Sql.host "pgm-j6c8s74ly5w0r5y7fo.pg.rds.aliyuncs.com"
+    Npgsql.FSharp.Sql.host "--"
     |> Npgsql.FSharp.Sql.port 1433
-    |> Npgsql.FSharp.Sql.username "rubber3"
-    |> Npgsql.FSharp.Sql.password "P@ssw0rd_rubber3"
-    |> Npgsql.FSharp.Sql.database "pfa_mall"
+    |> Npgsql.FSharp.Sql.username "--"
+    |> Npgsql.FSharp.Sql.password "P@--"
+    |> Npgsql.FSharp.Sql.database "--"
     |> Npgsql.FSharp.Sql.sslMode Npgsql.FSharp.SslMode.Disable
     |> Npgsql.FSharp.Sql.config "Pooling=true"
 
